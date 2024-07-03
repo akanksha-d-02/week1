@@ -1,0 +1,82 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color:teal;
+    color: #fff;
+    text-align: center;
+  }
+
+  .navbar{
+    background-color: teal;
+    font-family: math;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  ul{
+    overflow: auto;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  li a{
+    color: aliceblue;
+    font-size:28px;
+    padding: 3px, 3px;
+    margin-right: 310px;
+    text-decoration: none;
+  }
+  .welcome{
+    text-align: center;
+  }
+  .content1, .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.content1 img, .content2 img {
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.content1 p, .content2 p {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.youtube iframe {
+    margin-left: 360px;
+    height: 400px;
+    width: 800px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer {
+  background-color:teal;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
